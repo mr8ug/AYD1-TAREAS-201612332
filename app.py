@@ -14,12 +14,10 @@ async def info():
 async def sub(request: Request, x: int, y: int):
     return x - y
 
-<<<<<<< HEAD
-=======
+
 @app.post("/mul/")
 async def sub(request: Request, x: int, y: int):
     return x * y
->>>>>>> 1.0.1
 
 if __name__ == "__main__":
     import uvicorn
